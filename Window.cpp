@@ -16,6 +16,29 @@ Window::Window(GLint windowWidth, GLint windowHeight)
 	rotax = 0.0f;
 	rotay = 0.0f;
 	rotaz = 0.0f;
+	articulacion1 = 0.0f;
+	articulacion2 = 0.0f;
+	articulacion3 = 0.0f;
+	articulacion4 = 0.0f;
+	articulacion5 = 0.0f;
+	articulacion6 = 0.0f;
+	llanta1 = 0.0f;
+	llanta2 = 0.0f;
+	llanta3 = 0.0f;
+	llanta4 = 0.0f;
+	ps1 = 0.0f;
+	ps2 = 0.0f;
+	pi1 = 0.0f;
+	pi2 = 0.0f;
+	pl1 = 0.0f;
+	pl2 = 0.0f;
+	pl3 = 0.0f;
+	pl4 = 0.0f;
+	o1 = 0.0f;
+	o2 = 0.0f;
+
+
+	
 	for (size_t i = 0; i < 1024; i++)
 	{
 		keys[i] = 0;
@@ -38,7 +61,7 @@ int Window::Initialise()
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
 	//CREAR VENTANA
-	mainWindow = glfwCreateWindow(width, height, "Practica 03: Modelado Geometrico", NULL, NULL);
+	mainWindow = glfwCreateWindow(width, height, "Practica 04: Modelado Jerarquico", NULL, NULL);
 
 	if (!mainWindow)
 	{
@@ -105,17 +128,90 @@ void Window::ManejaTeclado(GLFWwindow* window, int key, int code, int action, in
 		glfwSetWindowShouldClose(window, GL_TRUE);
 	}
 
+	
+	if (key == GLFW_KEY_E)
+	{
+		theWindow->rotax += 10.0;
+	}
 	if (key == GLFW_KEY_R)
 	{
 		theWindow->rotay += 10.0; //rotar sobre el eje y 10 grados
 	}
-	else if (key == GLFW_KEY_E)
-	{
-		theWindow->rotax += 10.0;
-	}
-	else if (key == GLFW_KEY_T)
+	if (key == GLFW_KEY_T)
 	{
 		theWindow->rotaz += 10.0;
+	}
+	if (key == GLFW_KEY_F)
+	{
+		theWindow->articulacion1 += 10.0;
+	}
+
+	if (key == GLFW_KEY_G)
+	{
+		theWindow->articulacion2 += 10.0;
+	}
+	if (key == GLFW_KEY_H)
+	{
+		theWindow->articulacion3 += 10.0;
+	}
+	if (key == GLFW_KEY_J)
+	{
+		theWindow->articulacion4 += 10.0;
+	}
+	if (key == GLFW_KEY_K)
+	{
+		theWindow->articulacion5 += 10.0;
+	}
+	if (key == GLFW_KEY_L)
+	{
+		theWindow->articulacion6 += 10.0;
+	}
+	//movimiento de llantas y palmas de animal
+	if (key == GLFW_KEY_U)
+	{
+		theWindow->llanta1 += 10.0;
+		theWindow->pl1 += 10.0;
+	}
+	if (key == GLFW_KEY_I)
+	{
+		theWindow->llanta2 += 10.0;
+		theWindow->pl2 += 10.0;
+	}
+	if (key == GLFW_KEY_O)
+	{
+		theWindow->llanta3 += 10.0;
+		theWindow->pl3 += 10.0;
+	}
+	if (key == GLFW_KEY_P)
+	{
+		theWindow->llanta4 += 10.0;
+		theWindow->pl4 += 10.0;
+	}
+	//movimiento de patas del animal
+	if (key == GLFW_KEY_Z)
+	{
+		theWindow->ps1 += 10.0;
+	}
+	if (key == GLFW_KEY_X)
+	{
+		theWindow->ps2 += 10.0;
+	}
+	if (key == GLFW_KEY_C)
+	{
+		theWindow->pi1 += 10.0;
+	}
+	if (key == GLFW_KEY_V)
+	{
+		theWindow->pi2 += 10.0;
+	}
+	//movimiento orejas
+	if (key == GLFW_KEY_N)
+	{
+		theWindow->o1 += 10.0;
+	}
+	if (key == GLFW_KEY_M)
+	{
+		theWindow->o2 += 10.0;
 	}
 
 

@@ -1,0 +1,13 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: El directorio intermedio (Debug\) contiene archivos compartidos de otro proyecto (practica6.vcxproj). Esto puede dar lugar a un comportamiento incorrecto de limpieza y recompilación.
+  E08-318217037.cpp
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "E08-318217037.cpp")
+  
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
+  (compilando archivo de origen "E08-318217037.cpp")
+  
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\E08-318217037.cpp(402,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\E08-318217037.cpp(404,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\E08-318217037.cpp(445,33): warning C4805: '==': combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+  Compu_grafica_25.vcxproj -> C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Debug\Compu_grafica_25.exe

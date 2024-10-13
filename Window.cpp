@@ -15,6 +15,11 @@ Window::Window(GLint windowWidth, GLint windowHeight)
 	height = windowHeight;
 	muevex = 2.0f;
 	mueveh = 0.0f;
+	dato = true;
+	posCofre = 0.0;
+	xposCofre = 0.0;
+	yposCofre = 0.0;
+	avanza = true;
 	for (size_t i = 0; i < 1024; i++)
 	{
 		keys[i] = 0;
@@ -37,7 +42,7 @@ int Window::Initialise()
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
 	//CREAR VENTANA
-	mainWindow = glfwCreateWindow(width, height, "Practica07:Iluminacion 1", NULL, NULL);
+	mainWindow = glfwCreateWindow(width, height, "Practica08:Iluminacion 2", NULL, NULL);
 
 	if (!mainWindow)
 	{
@@ -108,10 +113,13 @@ void Window::ManejaTeclado(GLFWwindow* window, int key, int code, int action, in
 	if (key == GLFW_KEY_Y)
 	{
 		theWindow-> muevex += 1.0;
+		theWindow-> dato = false;
+		theWindow->avanza = true;
 	}
 	if (key == GLFW_KEY_U)
 	{
 		theWindow-> muevex -= 1.0;
+		theWindow->avanza = false;
 	}
 	if (key == GLFW_KEY_O)
 	{
@@ -120,6 +128,32 @@ void Window::ManejaTeclado(GLFWwindow* window, int key, int code, int action, in
 	if (key == GLFW_KEY_P)
 	{
 		theWindow->mueveh += 1.0;
+	}
+	if (key == GLFW_KEY_L)
+	{
+		theWindow->dato = false;
+	}
+	if (key == GLFW_KEY_K)
+	{
+		theWindow->dato = true;
+	}
+	if (key == GLFW_KEY_C)
+	{
+		if (theWindow->posCofre < 40.0)
+		{
+			theWindow->posCofre += 2.0;
+			theWindow->xposCofre -= .07;
+			theWindow->yposCofre += .097;
+		}
+	}
+	if (key == GLFW_KEY_V)
+	{
+		if (theWindow->posCofre > 0.0)
+		{
+			theWindow->posCofre -= 2.0; 
+			theWindow->xposCofre += .07;
+			theWindow->yposCofre -= .097;
+		}
 	}
 
 

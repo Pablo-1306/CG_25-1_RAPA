@@ -1,40 +1,26 @@
-﻿  Camera.cpp
-  DirectionalLight.cpp
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\DirectionalLight.cpp(18,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\DirectionalLight.cpp(19,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\DirectionalLight.cpp(21,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\DirectionalLight.cpp(22,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-  Light.cpp
-  Material.cpp
-  Mesh_tn.cpp
-  Model.cpp
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Model.cpp(16,10): warning C4477: 'printf' : la cadena de formato '%s' requiere un argumento de tipo 'char *', pero el argumento variádico 1 tiene el tipo 'const std::string'
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Model.cpp(16,80): warning C4474: "printf": se pasaron demasiados argumentos para la cadena de formato
-  C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Model.cpp(16,80):
-  los marcadores de posición y sus parámetros esperan 1 argumentos variádicos, pero se proporcionaron 2
-  
-  PointLight.cpp
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\PointLight.cpp(28,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\PointLight.cpp(29,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\PointLight.cpp(30,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\PointLight.cpp(32,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\PointLight.cpp(33,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\PointLight.cpp(34,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\PointLight.cpp(35,14): warning C4244: 'argumento': conversión de 'GLfloat' a 'GLint'; posible pérdida de datos
-  P05-318217037.cpp
+﻿  P08-318217037.cpp
 C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
-  (compilando archivo de origen "P05-318217037.cpp")
+  (compilando archivo de origen "P08-318217037.cpp")
   
 C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
-  (compilando archivo de origen "P05-318217037.cpp")
+  (compilando archivo de origen "P08-318217037.cpp")
   
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\P05-318217037.cpp(191,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\P05-318217037.cpp(193,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-  Shader_m.cpp
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\P08-318217037.cpp(402,15): warning C4244: 'inicializando': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\P08-318217037.cpp(404,33): warning C4244: '+=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\P08-318217037.cpp(445,33): warning C4805: '==': combinación no segura del tipo 'GLboolean' y el tipo 'bool' en la operación
+  Shader_light.cpp
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(207,75): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(207,26): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(206,91): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(206,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(220,98): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(220,62): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(220,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(219,70): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(219,24): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(218,88): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Shader_light.cpp(218,42): warning C4244: 'argumento': conversión de 'GLuint' a 'GLfloat'; posible pérdida de datos
   Skybox.cpp
-  Sphere.cpp
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Sphere.cpp(39,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Sphere.cpp(43,16): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
   SpotLight.cpp
   Window.cpp
 C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.h(12,36): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
@@ -43,15 +29,20 @@ C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Win
 C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.h(13,37): warning C4244: 'return': conversión de 'GLint' a 'GLfloat'; posible pérdida de datos
   (compilando archivo de origen "Window.cpp")
   
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(260,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(261,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(265,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(266,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(268,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(269,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(145,31): warning C4305: '-=': truncamiento de 'double' a 'GLfloat'
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(146,32): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(154,31): warning C4305: '+=': truncamiento de 'double' a 'GLfloat'
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(155,32): warning C4305: '-=': truncamiento de 'double' a 'GLfloat'
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(182,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(183,22): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(187,28): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(188,40): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(190,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(191,21): warning C4244: '=': conversión de 'double' a 'GLfloat'; posible pérdida de datos
   Generando código
-  Previous IPDB not found, fall back to full compilation.
-C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(84): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
-  All 772 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Compu_grafica_25\Window.cpp(81): warning C4715: 'Window::Initialise': no todas las rutas de acceso de control devuelven un valor
+  421 of 915 functions (46.0%) were compiled, the rest were copied from previous compilation.
+    53 functions were new in current compilation
+    16 functions had inline decision re-evaluated but remain unchanged
   Generación de código finalizada
   Compu_grafica_25.vcxproj -> C:\Users\pablo_q1suczv\OneDrive\Documentos\Compu_grafica_25\Release\Compu_grafica_25.exe

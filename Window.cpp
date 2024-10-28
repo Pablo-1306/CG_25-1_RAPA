@@ -20,6 +20,7 @@ Window::Window(GLint windowWidth, GLint windowHeight)
 	xposCofre = 0.0;
 	yposCofre = 0.0;
 	avanza = true;
+	saltos = 3;
 	for (size_t i = 0; i < 1024; i++)
 	{
 		keys[i] = 0;
@@ -42,7 +43,7 @@ int Window::Initialise()
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 
 	//CREAR VENTANA
-	mainWindow = glfwCreateWindow(width, height, "Practica08:Iluminacion 2", NULL, NULL);
+	mainWindow = glfwCreateWindow(width, height, "Practica09-2:Animacion avanzada", NULL, NULL);
 
 	if (!mainWindow)
 	{
@@ -198,3 +199,9 @@ Window::~Window()
 	glfwTerminate();
 
 }
+//
+//
+//GLFWwindow* Window::getMainWindow()
+//{
+//	return mainWindow;
+//}
